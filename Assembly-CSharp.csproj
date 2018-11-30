@@ -61,18 +61,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Test.cs" />
+    <Compile Include="Assets\Splash.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/liyeu/OneDrive/Documenten/Argon Assault (PC)/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/liyeu/OneDrive/Documenten/Unity Projects/Argon Assault (PC)/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/liyeu/OneDrive/Documenten/Argon Assault (PC)/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/liyeu/OneDrive/Documenten/Unity Projects/Argon Assault (PC)/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/liyeu/OneDrive/Documenten/Argon Assault (PC)/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/liyeu/OneDrive/Documenten/Unity Projects/Argon Assault (PC)/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/liyeu/OneDrive/Documenten/Argon Assault (PC)/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/liyeu/OneDrive/Documenten/Unity Projects/Argon Assault (PC)/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
