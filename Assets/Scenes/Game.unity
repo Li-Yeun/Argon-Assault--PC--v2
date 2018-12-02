@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.16006598, g: 0.20378181, b: 0.15711299, a: 1}
+  m_IndirectSpecularColor: {r: 0.1602216, g: 0.2037924, b: 0.15721288, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -413,7 +413,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4762667030219198, guid: 2e72ad30fc4187b47bfae40c2dc97056, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 9.75
+      value: 6.42
       objectReference: {fileID: 0}
     - target: {fileID: 4762667030219198, guid: 2e72ad30fc4187b47bfae40c2dc97056, type: 2}
       propertyPath: m_LocalRotation.x
@@ -595,7 +595,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45901eb1a62f46f4092387bb9f55f8b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xSpeed: 4
+  speed: 20
+  xRange: 5
+  yRange: 3
+  positionPitchFactor: -5
+  controlPitchFactor: -20
+  positionYawFactor: 5
+  controlRollFactor: -20
 --- !u!1 &1515483019
 GameObject:
   m_ObjectHideFlags: 0
