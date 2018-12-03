@@ -204,6 +204,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &105080974 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1817376457774084, guid: 2e72ad30fc4187b47bfae40c2dc97056,
+    type: 2}
+  m_PrefabInternal: {fileID: 1735069982}
 --- !u!1001 &143790297
 Prefab:
   m_ObjectHideFlags: 0
@@ -893,6 +898,7 @@ MonoBehaviour:
   DeathFX: {fileID: 1876488098402560, guid: f4f440cf6270f69408b0c96117027639, type: 2}
   parent: {fileID: 882193880}
   scorePerHit: 12
+  hits: 10
 --- !u!4 &1429946404 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4354848751893472, guid: bf374732b0ea2c34daa340dc2de7f746,
@@ -1032,6 +1038,7 @@ MonoBehaviour:
   DeathFX: {fileID: 1876488098402560, guid: f4f440cf6270f69408b0c96117027639, type: 2}
   parent: {fileID: 882193880}
   scorePerHit: 12
+  hits: 10
 --- !u!1001 &1541632953
 Prefab:
   m_ObjectHideFlags: 0
@@ -1176,6 +1183,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 534669905}
     m_Modifications:
+    - target: {fileID: 114178954285673094, guid: 2e72ad30fc4187b47bfae40c2dc97056,
+        type: 2}
+      propertyPath: guns.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4762667030219198, guid: 2e72ad30fc4187b47bfae40c2dc97056, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1212,6 +1224,32 @@ Prefab:
       propertyPath: m_Name
       value: Explosion
       objectReference: {fileID: 0}
+    - target: {fileID: 1817376457774084, guid: 2e72ad30fc4187b47bfae40c2dc97056, type: 2}
+      propertyPath: m_Name
+      value: Gun Right
+      objectReference: {fileID: 0}
+    - target: {fileID: 1628560296626136, guid: 2e72ad30fc4187b47bfae40c2dc97056, type: 2}
+      propertyPath: m_Name
+      value: Gun Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 114178954285673094, guid: 2e72ad30fc4187b47bfae40c2dc97056,
+        type: 2}
+      propertyPath: guns.Array.data[0]
+      value: 
+      objectReference: {fileID: 105080974}
+    - target: {fileID: 114178954285673094, guid: 2e72ad30fc4187b47bfae40c2dc97056,
+        type: 2}
+      propertyPath: guns.Array.data[1]
+      value: 
+      objectReference: {fileID: 1910206728}
+    - target: {fileID: 1817376457774084, guid: 2e72ad30fc4187b47bfae40c2dc97056, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1628560296626136, guid: 2e72ad30fc4187b47bfae40c2dc97056, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e72ad30fc4187b47bfae40c2dc97056, type: 2}
   m_IsPrefabAsset: 0
@@ -1243,6 +1281,11 @@ Transform:
   m_Father: {fileID: 92928968}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1910206728 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1628560296626136, guid: 2e72ad30fc4187b47bfae40c2dc97056,
+    type: 2}
+  m_PrefabInternal: {fileID: 1735069982}
 --- !u!1 &1922620478 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1074994750746910, guid: 6d7afa73fcb1fce4cb4b65361a29bcbd,
@@ -1262,6 +1305,7 @@ MonoBehaviour:
   DeathFX: {fileID: 1876488098402560, guid: f4f440cf6270f69408b0c96117027639, type: 2}
   parent: {fileID: 882193880}
   scorePerHit: 100
+  hits: 10
 --- !u!1 &1931355880
 GameObject:
   m_ObjectHideFlags: 0
